@@ -13,6 +13,7 @@ public class Test {
 			ps.setLong(3, contact);
 			ps.setString(4, gender);
 			ps.executeUpdate();
+			
 		} catch (Exception e) {
 			System.out.println(e);
 		}
